@@ -582,8 +582,8 @@ window.SELLABLE_DATA = [{"m":"C6A","t":"车内AHD","p":"5151007100012","r":"720P
           <td><span class="pill ${colorClass(row.s)}">${escapeHtml(tv(row.s) || "-")}</span></td>
           <td><span class="pill ${colorClass(row.l)}">${escapeHtml(row.l || "-")}</span></td>
           ${adasTd}
-          <td>${escapeHtml(tv(row.i) || "-")}</td>
-          <td>${escapeHtml(tv(row.g) || "-")}</td>
+          <td><span class="pill ${colorClass(row.i)}">${escapeHtml(tv(row.i) || "-")}</span></td>
+          <td><span class="pill ${colorClass(row.g)}">${escapeHtml(tv(row.g) || "-")}</span></td>
           <td>${escapeHtml(tv(row.st) || "-")}</td>
           <td>${descCell(desc)}</td>
         </tr>`;
