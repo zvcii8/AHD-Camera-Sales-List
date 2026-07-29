@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>AHD摄像机可售清单 / AHD Camera Sellable List</title>
+<title>AHD Sales List</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -175,7 +175,7 @@ th { position:sticky; top:0; background:#f7fafc; color:var(--muted); font-size:1
 <div class="wrap">
   <div class="topbar">
     <div>
-      <h1 id="pageTitle">AHD摄像机可售清单</h1>
+      <h1 id="pageTitle">AHD Sales List</h1>
       <div class="sub" id="pageSub"></div>
     </div>
     <div class="lang-switch" role="group" aria-label="Language">
@@ -224,7 +224,7 @@ window.SELLABLE_DATA = [{"m":"C6A","t":"车内AHD","p":"5151007100012","r":"720P
 
   const I18N = {
     zh: {
-      title: "AHD摄像机可售清单",
+      title: "AHD Sales List",
       sub: "单文件可外发 · 国内 / 海外销售共用",
       copy: "复制当前全部编号+描述",
       reset: "清空条件",
@@ -259,7 +259,7 @@ window.SELLABLE_DATA = [{"m":"C6A","t":"车内AHD","p":"5151007100012","r":"720P
       }
     },
     en: {
-      title: "AHD Camera Sellable List",
+      title: "AHD Sales List",
       sub: "Single-file shareable page for CN / overseas sales",
       copy: "Copy all part numbers + descriptions",
       reset: "Clear filters",
@@ -476,7 +476,7 @@ window.SELLABLE_DATA = [{"m":"C6A","t":"车内AHD","p":"5151007100012","r":"720P
   function applyStaticI18n() {
     const i = t();
     document.documentElement.lang = lang === "en" ? "en" : "zh-CN";
-    document.title = lang === "en" ? "AHD Camera Sellable List" : "AHD摄像机可售清单";
+    document.title = "AHD Sales List";
     document.getElementById("pageTitle").textContent = i.title;
     document.getElementById("pageSub").textContent = i.sub;
     document.getElementById("btnCopy").textContent = i.copy;
