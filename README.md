@@ -1,7 +1,6 @@
-﻿# AHD Camera Sales List
+﻿# AHD / IPC Camera Sales List
 
-Supports **AHD** and **IPC** categories on one page.
-
-- AHD: https://zvcii8.github.io/AHD-Camera-Sales-List/
-- IPC: https://zvcii8.github.io/AHD-Camera-Sales-List/?cat=ipc
-- English: add `&lang=en`
+- AHD 中文: https://zvcii8.github.io/AHD-Camera-Sales-List/
+- AHD English: https://zvcii8.github.io/AHD-Camera-Sales-List/?lang=en
+- IPC 中文: https://zvcii8.github.io/AHD-Camera-Sales-List/?cat=ipc
+- IPC English: https://zvcii8.github.io/AHD-Camera-Sales-List/?cat=ipc&lang=en
